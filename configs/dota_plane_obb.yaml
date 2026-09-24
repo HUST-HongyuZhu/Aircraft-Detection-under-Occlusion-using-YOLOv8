@@ -1,0 +1,11 @@
+# YOLOv8 OBB dataset config for DOTA plane subset
+path: /path/to/DOTA
+train: train/images
+val: val/images
+
+# Classes
+names:
+  0: plane
+
+# Optional
+nc: 1
